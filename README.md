@@ -1,21 +1,40 @@
-<<<<<<< HEAD
-# translation-flutter-app
-Flutter app that calls the API 
-=======
-# doc_translation
+# 🌐 Flutter Translation App
 
-A new Flutter project.
+A Flutter frontend that connects to a custom translation API powered by a transformer model.
+Currently supports:
 
-## Getting Started
+Text translation (real-time input field)
+Document translation (Word/other text files)
 
-This project is a starting point for a Flutter application.
+# Features
 
-A few resources to get you started if this is your first Flutter project:
+Simple UI for entering text and getting instant translations.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Upload and translate document text.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> e46b061 (Initial flutter-app commit)
+Connects seamlessly with a backend translation API.
+
+Designed for legal and structured documents, but works for general text too.
+
+# Tech Stack
+
+Frontend: Flutter
+
+Backend API: Custom PyTorch Transformer model (via FASTAPI REST API)
+
+Supported Docs: Word (.docx), PDF (.pdf), plain text, etc.
+
+# Roadmap
+
+ Offline mode with cached translations.
+
+ UI polish (themes, animations).
+
+# Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss your idea.
+
+# License
+
+MIT License. See LICENSE
+ for details.
